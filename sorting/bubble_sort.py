@@ -1,4 +1,19 @@
 def bubble_sort(arr):
+    """
+    Sort given array of size n
+    Best Case: 
+        No. of comparisions: (n-1)^2
+        No. of swaps: 0
+    Worst Case:
+        No. of comaparisions: (n-1)^2
+        No. of swaps: n * (n-1) / 2
+
+    parameters:
+        arr: input array
+
+    Returns:
+        arr: sorted array
+    """
     for i in range(len(arr)-1):
         for j in range(len(arr)-1):
             if arr[j] > arr[j+1]:
