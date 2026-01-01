@@ -1,5 +1,19 @@
 def min_max(arr):
     """
+    given an array of size n
+    Best Case: 
+        if: (n-1)
+        elif: 0
+        total: (n-1)
+    Worst Case:
+        if: (n-1):
+        elif: (n-1)
+        total: 2 * (n-1)
+    Average Case:
+        if : (n-1)
+        elif: (n/2)
+        total: (3n/2 - 1)
+        
     parameters:
         arr: input array
     returns:
